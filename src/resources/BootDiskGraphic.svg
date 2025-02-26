@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" width="300" height="500">
+    <!-- Corps principal de la clé USB -->
+    <rect x="75" y="150" width="150" height="250" rx="20" fill="url(#usb-body-gradient)" stroke="#1E3A8A" stroke-width="3"/>
+
+    <!-- Dégradé pour le corps -->
+    <defs>
+        <linearGradient id="usb-body-gradient" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#E0E7FF"/>
+            <stop offset="100%" stop-color="#93C5FD"/>
+        </linearGradient>
+    </defs>
+
+    <!-- Connecteur USB -->
+    <rect x="100" y="75" width="100" height="75" rx="10" fill="#60A5FA" stroke="#1E3A8A" stroke-width="2"/>
+    <rect x="120" y="90" width="20" height="30" fill="#1E40AF" rx="3"/>
+    <rect x="160" y="90" width="20" height="30" fill="#1E40AF" rx="3"/>
+
+    <!-- Cercle de boot (Zone spéciale pour montrer qu'il est bootable) -->
+    <circle cx="150" cy="275" r="50" fill="url(#boot-gradient)" stroke="#1E3A8A" stroke-width="2"/>
+
+    <!-- Dégradé pour le cercle "BOOT" -->
+    <defs>
+        <radialGradient id="boot-gradient" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#3B82F6"/>
+            <stop offset="100%" stop-color="#60A5FA"/>
+        </radialGradient>
+    </defs>
+
+    <!-- Texte "BOOT" centré dans le cercle -->
+    <text x="150" y="280" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#FFFFFF" text-anchor="middle">
+        BOOT
+    </text>
+
+    <!-- Ombre portée pour le cercle -->
+    <circle cx="150" cy="275" r="50" fill="none" stroke="rgba(30,58,138,0.2)" stroke-width="6"/>
+
+    <!-- Icône USB moderne (ligne et cercles) -->
+    <path d="M150,420 L150,350" stroke="#1E3A8A" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="150" cy="340" r="10" fill="#1E3A8A"/>
+    <circle cx="135" cy="360" r="6" fill="#1E40AF"/>
+    <circle cx="165" cy="360" r="6" fill="#1E40AF"/>
+
+
+</svg>

@@ -1,0 +1,9 @@
+<gresources>
+    <gresource prefix="/org/gtk_rs/createbootdrive">
+        <file>BootDiskGraphic.svg</file>
+        <file>refresh.svg</file>
+        <file>iso_add.svg</file>
+        <file>quit.svg</file>
+        <file>valider.svg</file>
+    </gresource>
+</gresources>
