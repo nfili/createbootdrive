@@ -1,0 +1,12 @@
+[package]
+name = "create_boot_drive"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+gtk4= { version = "0.9.5", features = ["v4_6"] }
+gio = "0.20.9"      # Bibliothèque pour les E/S avec GTK
+glib = "0.20.9"     # Infrastructure commune pour GTK
+udev = "0.9.3"            #Permet de connetre l'espace disponible
+byte-unit = "5.1.6"
